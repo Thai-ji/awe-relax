@@ -7,11 +7,11 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 // The entry: one still picture per line — a child half asleep on the back of a bicycle,
-// your father standing to pedal up a long hill, the chain ticking, the town below with
-// its lights on and quiet, and stars that set out before the road had a name, still
-// falling softly at your door. 6 lines, 277 code points, under the 280 the competition
-// allows.
-const ENTRY = "Up the hill your father stands to pedal, chain ticking,\nand you ride behind, cheek on his coat,\nhalf asleep to the slow creak of wheels.\nAt the top the town lies below, lights on, quiet.\nThe stars set out before the road had a name,\nand are still falling, softly, at your door.";
+// the father standing to pedal up a long hill, the chain ticking, the town below at the
+// top with its lights on and quiet, the old road under you, the dark running on past the
+// last streetlight, and the turning earth carrying you home without waking you. 6 lines,
+// 275 code points, under the 280 the competition allows.
+const ENTRY = "Up the hill he stands to pedal, the chain ticking,\nyou ride behind, your cheek on his coat,\nhalf asleep.\nAt the top, the town below, lights on and quiet, the road older still,\nthe dark goes on past the last streetlight,\nand the turning earth carries you home, not waking you.";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
