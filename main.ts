@@ -6,11 +6,12 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// The entry: one still picture per line — a child half asleep on the floor at her
-// mother's feet, wrapped in the cloth she is sewing, while the sewing machine runs and
-// stops, the lamp warm, the window black a long way out, and the needle still going by
-// morning. 6 lines, 275 code points, under the 280 the competition allows.
-const ENTRY = "Her foot on the pedal, the needle goes and stops,\nyou lie at her feet in the cloth she sews,\nhalf asleep in the warm ring of the lamp.\nThe window is black and stays black far out.\nThe thread runs on, the needle runs on,\nand by morning it will be a whole garment, in no hurry.";
+// The entry: one still picture per line — a child standing straight against the door
+// frame while her father measures her height, his palm resting on her head, the pencil
+// cold then warm leaving a new line, the older lines climbing back down the wall to a
+// mark from when she was small, the house keeping every one the way the sky keeps its
+// stars. 6 lines, 275 code points, under the 280 the competition allows.
+const ENTRY = "His palm on your head, your back to the door frame,\nthe pencil cold, then warm, a line stays.\nOld lines climb the wall below it, one a year,\nto a mark near the floor, when you were small.\nThe house keeps them as the sky keeps stars,\nand more will climb, long after you sleep.";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
