@@ -6,12 +6,12 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// The entry: one still picture per line — a child standing straight against the door
-// frame while her father measures her height, his palm resting on her head, the pencil
-// cold then warm leaving a new line, the older lines climbing back down the wall to a
-// mark from when she was small, the house keeping every one the way the sky keeps its
-// stars. 6 lines, 275 code points, under the 280 the competition allows.
-const ENTRY = "His palm on your head, your back to the door frame,\nthe pencil cold, then warm, a line stays.\nOld lines climb the wall below it, one a year,\nto a mark near the floor, when you were small.\nThe house keeps them as the sky keeps stars,\nand more will climb, long after you sleep.";
+// The entry: one still picture per line — a child half asleep on the back of a bicycle,
+// your father standing to pedal up a long hill, the chain ticking, the town below with
+// its lights on and quiet, and stars that set out before the road had a name, still
+// falling softly at your door. 6 lines, 277 code points, under the 280 the competition
+// allows.
+const ENTRY = "Up the hill your father stands to pedal, chain ticking,\nand you ride behind, cheek on his coat,\nhalf asleep to the slow creak of wheels.\nAt the top the town lies below, lights on, quiet.\nThe stars set out before the road had a name,\nand are still falling, softly, at your door.";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
