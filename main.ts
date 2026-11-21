@@ -7,9 +7,10 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 // The entry: one still picture per line, a body under wool, and a last image that
-// keeps opening outward — the earth carrying the whole house the long way round.
-// 255 code points, under the 280 the competition allows.
-const ENTRY = "Rain has been falling on this roof since before the town had a name.\nUnder the wool, your hands are two warm stones.\nOutside, the earth turns the night toward morning,\ncarrying this house and the roof's slow leak\nthe long way round, without waking anyone.";
+// keeps moving outward — the earth carrying the house past the last lit window,
+// and the rain from line one still coming down. 263 code points, under the 280 the
+// competition allows.
+const ENTRY = "Rain has been falling on this roof since before the town had a name.\nUnder the wool, your hands are two warm stones.\nOutside, the earth turns the night toward morning,\ncarrying this house and the roof's slow leak\npast the last lit window,\nand it is still falling.";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
