@@ -6,9 +6,10 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// The entry: a still room, slow short sentences, and a last image that keeps opening
-// outward. 266 code points, under the 280 the competition allows.
-const ENTRY = "A cup of tea cools at the table's edge. Steam lifts in threads too thin to follow. A bird steps to the next branch; the branch stays still. Nothing is asked of you here. The afternoon keeps widening around this small point, without hurry, all the way to the horizon.";
+// The entry: one still picture per line, a body under wool, and a last image that
+// keeps opening outward — the earth carrying the whole house the long way round.
+// 255 code points, under the 280 the competition allows.
+const ENTRY = "Rain has been falling on this roof since before the town had a name.\nUnder the wool, your hands are two warm stones.\nOutside, the earth turns the night toward morning,\ncarrying this house and the roof's slow leak\nthe long way round, without waking anyone.";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
