@@ -6,11 +6,11 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// The entry: one still picture per line — someone asleep, someone awake beside them,
-// the earth turning the sleeping town toward morning, and a star that outlasts a
-// grandmother still burning over it. 5 lines, 257 code points, under the 280 the
-// competition allows.
-const ENTRY = "Beside you she sleeps, one hand loose on the quilt.\nYou stay awake a while, as you did when she was small.\nOutside, the earth turns the town toward morning,\nand a star that was burning before her grandmother was born\nis still burning over the sleeping town.";
+// The entry: one still picture per line — a child half asleep on the back of a
+// bicycle, the father standing to pedal up a long hill, the chain ticking, the town
+// below with its lights on, and stars that took a long way to get here still there at
+// the door. 6 lines, 274 code points, under the 280 the competition allows.
+const ENTRY = "Up the hill he stands to pedal, the chain ticking,\nand you ride behind, your cheek on his coat,\nhalf asleep to the slow creak of wheels.\nAt the top the town lies below, lights on, quiet.\nThe stars have come a long way and do not hurry,\nand are still there when you get home.";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
